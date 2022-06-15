@@ -1,4 +1,4 @@
-node ("JenkinsSlave1") {
+node () {
     stage ("List Current Dir"){
         sh "pwd"
         sh "ls -lh"
